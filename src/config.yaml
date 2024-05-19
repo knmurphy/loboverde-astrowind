@@ -1,6 +1,6 @@
 site:
-  name: AstroWind
-  site: 'https://astrowind.vercel.app'
+  name: Lobo Verde 🌿
+  site: 'https://loboverde.netlify.app'
   base: '/'
   trailingSlash: false
 
@@ -9,9 +9,9 @@ site:
 # Default SEO metadata
 metadata:
   title:
-    default: AstroWind
-    template: '%s — AstroWind'
-  description: "\U0001F680 Suitable for Startups, Small Business, Sass Websites, Professional Portfolios, Marketing Websites, Landing Pages & Blogs."
+    default: Lobo Verde 🌿
+    template: '%s — Lobo Verde 🌿'
+  description: "Lobo Verde 🌿 is a sutainable landscaping design studio based in Cuernavaca, Morelos, Mexico."
   robots:
     index: true
     follow: true
