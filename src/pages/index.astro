@@ -2,7 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 
 import Header from '~/components/widgets/Header.astro';
-import Hero from '~/components/widgets/Hero.astro';
+import Hero2 from '~/components/widgets/Hero2.astro';
 import Content from '~/components/widgets/Content.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import Features3 from '~/components/widgets/Features3.astro';
@@ -41,11 +41,16 @@ const metadata = {
 
   <!-- Hero2 Widget ******************* -->
 
-  <Hero
+  <Hero2
     id="hero"
     title="Lobo Verde Paisajismo Sutentable"
     tagline="Evan Phillips Valdes"
     actions={[{ variant: 'primary', text: 'Hire me', href: getPermalink('/contact#form') }]}
+    image={{
+      src: '~/assets/images/hero-design.svg',
+      alt: 'Evan Phillips Valdes Image',
+      loading: 'eager',
+    }}
   >
     <Fragment slot="subtitle">
       I'm Evan Phillips Valdes, a passionate landscape designer dedicated to sustainable practices. <br /> With 5 years of experience I strive to create vibrant and eco-friendly outdoor spaces that harmonize with nature.
