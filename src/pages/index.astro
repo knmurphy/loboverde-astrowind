@@ -2,7 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 
 import Header from '~/components/widgets/Header.astro';
-import Hero2 from '~/components/widgets/Hero2.astro';
+import Hero from '~/components/widgets/Hero.astro';
 import Content from '~/components/widgets/Content.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
 import Features3 from '~/components/widgets/Features3.astro';
@@ -26,7 +26,6 @@ const metadata = {
         { text: 'Resume', href: '#resume' },
         { text: 'Porfolio', href: '#porfolio' },
         { text: 'Blog', href: '#blog' },
-        { text: 'Github', href: 'https://github.com/onwidget' },
       ]}
       actions={[
         {
@@ -41,7 +40,7 @@ const metadata = {
 
   <!-- Hero2 Widget ******************* -->
 
-  <Hero2
+  <Hero
     id="hero"
     title="Lobo Verde Paisajismo Sutentable"
     tagline="Evan Phillips Valdes"
@@ -64,10 +63,10 @@ const metadata = {
     columns={3}
     items={[
       {
-        icon: 'tabler:brand-dribbble',
+        icon: 'tabler:brand-instagram',
         callToAction: {
           target: '_blank',
-          text: 'Dribbble',
+          text: 'Instagam',
           href: '#',
         },
       },
@@ -79,18 +78,10 @@ const metadata = {
           href: '#',
         },
       },
-      {
-        icon: 'tabler:brand-pinterest',
-        callToAction: {
-          target: '_blank',
-          text: 'Pinterest',
-          href: '#',
-        },
-      },
     ]}
     image={{
-      src: '~/assets/images/evn-phillips-valdes.jpg',
-      alt: 'Colorful Image',
+      src: '~/assets/images/evan-philips-valdes.jpg',
+      alt: 'Founder and lead designer Evan Phillips Valdes',
       loading: 'eager',
     }}
   >

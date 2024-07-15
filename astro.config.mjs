@@ -65,7 +65,7 @@ export default defineConfig({
       },
       Image: false,
       JavaScript: true,
-      SVG: false,
+      SVG: true,
       Logger: 1,
     }),
 
